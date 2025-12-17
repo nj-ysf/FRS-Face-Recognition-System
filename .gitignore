@@ -1,2 +1,77 @@
+# ========================
+# SENSITIVE DATA - PRIVACY
+# ========================
 DataSet/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+labels.csv
 
+# ========================
+# LARGE MODEL FILES
+# ========================
+*.dat
+*.pkl
+*.yml
+*.h5
+*.pb
+*.onnx
+*.pt
+*.pth
+
+# ========================
+# PYTHON
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+.venv
+
+# ========================
+# IDE & EDITORS
+# ========================
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# JUPYTER NOTEBOOKS
+# ========================
+.ipynb_checkpoints
+*.ipynb
+
+# ========================
+# LOGS & TEMP FILES
+# ========================
+*.log
+*.tmp
+*.temp
+*.cache

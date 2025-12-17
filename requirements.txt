@@ -1,0 +1,8 @@
+opencv-python>=4.5.5
+dlib
+numpy>=1.21
+scikit-learn>=1.0
+
+# Notes:
+# Installing dlib via pip on Windows may require Visual C++ build tools.
+# If pip install dlib fails, prefer using conda: `conda install -c conda-forge dlib`
