@@ -1,8 +1,14 @@
-opencv-python>=4.5.5
+# FRS - Face Recognition System Dependencies
+# Python 3.9 recommended (required for dlib compatibility)
+
+opencv-python==4.5.5.64
 dlib
-numpy>=1.21
+numpy==1.26.4
 scikit-learn>=1.0
+pandas>=1.4
 
 # Notes:
-# Installing dlib via pip on Windows may require Visual C++ build tools.
-# If pip install dlib fails, prefer using conda: `conda install -c conda-forge dlib`
+# - Python 3.9 is required for dlib compatibility
+# - On Windows: use conda to install dlib: `conda install -c conda-forge dlib`
+# - On Linux: install build tools first: `apt-get install build-essential cmake`
+# - For Docker: use the provided Dockerfile (recommended)

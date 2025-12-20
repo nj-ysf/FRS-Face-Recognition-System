@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+env/
+.env/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Git
+.git/
+.gitignore
+
+# Large model files (mount these instead of copying)
+# Uncomment if you want to exclude them from the build
+# *.dat
+# *.pkl
+# *.yml
+
+# Dataset (mount instead of copying)
+# DataSet/
+
+# Misc
+*.md
+*.txt
+!requirements.txt
+

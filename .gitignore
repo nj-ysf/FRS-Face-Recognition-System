@@ -61,6 +61,7 @@ ENV/
 *~
 .DS_Store
 Thumbs.db
+*.code-workspace
 
 # ========================
 # JUPYTER NOTEBOOKS
